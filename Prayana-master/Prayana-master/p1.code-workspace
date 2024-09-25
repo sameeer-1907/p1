@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/Sameer/Downloads/3.1+Express+Server"
+		},
+		{
+			"path": "C:/Users/Sameer/Downloads/backend"
+		},
+		{
+			"path": "C:/Users/Sameer/Desktop/prayana"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "backend"
+	}
+}

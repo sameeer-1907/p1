@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Italianno";
+  src: url("../assets/fonts/ITALIANNO-REGULAR.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CLASHDISPLAY-REGULAR";
+  src: url("../assets/fonts/CLASHDISPLAY-REGULAR.OTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CLASHDISPLAY-BOLD";
+  src: url("../assets/fonts/CLASHDISPLAY-BOLD.OTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CLASHDISPLAY-MEDIUM";
+  src: url("../assets/fonts/CLASHDISPLAY-MEDIUM.OTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.AboutParentContainer {
+  background-color: #ffefd6;
+}
+
+.AboutColumns {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+  height: max-content;
+}
+
+.About_column1 {
+  flex: 1.5;
+}
+
+.About_column2 {
+  flex: 1;
+}
+
+.About_column1_1 {
+  border-radius: 25px; /* Optional for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.About_column1_2 {
+  border-radius: 25px; /* Optional for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  background-color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.About_column2_1 {
+  border-radius: 25px; /* Optional for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.About_column2_2 {
+  border-radius: 25px; /* Optional for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  background-color: #94ed81;
+  padding: 1.5rem;
+  height: max-content;
+  margin-top: 1.5rem;
+  font-family: "Montserrat SemiBold";
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.About_title1 {
+  color: #5ab139;
+  font-family: "Montserrat SemiBold";
+  font-size: 1.2rem;
+}
+
+.About_title2 {
+  color: #000;
+  font-family: "Montserrat SemiBold";
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.About_para1 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.About_OurVision {
+  color: #000;
+  font-family: "Montserrat SemiBold";
+  font-size: 3rem;
+}
+
+.About_OurVision_para {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}

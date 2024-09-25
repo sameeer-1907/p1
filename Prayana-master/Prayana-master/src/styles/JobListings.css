@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+.JobListings_container{
+    background-color: #0F0F0F;
+
+}
+  .title1_container{
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+    
+  }
+  
+  .title1{
+    color: white;
+    font-family: "Montserrat Semibold";
+    font-size: 6vh;
+  }
+  
+  .title2{
+    color: #4ABC32;
+    font-family: "Montserrat Semibold";
+    font-size: 6vh;
+  }
+  
+  .title_caption{
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+    opacity: 0.5;
+  }
+  
+  .title_caption_container{
+    margin-top: 2vh;
+  }
+
+  .container {
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 2.5vh;
+    gap:2vh ;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 0.3vh solid rgba(255, 255, 255, 0.3)  ;
+    border-radius: 6vh;
+    margin-top: 4vh;
+  }
+  
+  .job-details, .application-form {
+    color: #ffffff;
+    padding: 2vh;
+    border-radius: 1vh;
+    width: 48%;
+  }
+  
+  .tags {
+    margin-bottom: 2vh;
+    font-family: "Montserrat Medium";
+  
+  }
+  
+  .tag {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0vh 1vh;
+    border-radius: 0.5vh;
+    margin-right: 1vh;
+  }
+  
+  .tagk{
+    background-color: rgba(90, 177, 57, 0.4);
+    color: #5AB139;
+    padding: 0vh 1vh;
+    border-radius: 0.5vh;
+    margin-right: 1vh;
+  }
+  
+  .summary {
+    list-style-type: disc;
+    padding-left: 3vh;
+    margin-bottom: 2vh;
+    font-family: "Montserrat Light";
+    font-size: medium;
+    opacity: 0.6;
+    margin-top: 3vh;
+  
+  }
+  
+  .summary li {
+    margin-bottom: 1vh;
+  }
+  
+  .job-description, .responsibilities {
+    margin-bottom: 2vh;
+    border: 0.3vh solid rgba(255, 255, 255, 0.2)  ;
+    border-radius: 3vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(to right, #0F0F0F 75%, #737373 300%); /* Adjusting color stops */
+  
+  
+  }
+  
+  .responsibilities ul {
+    list-style-type: disc;
+    padding-left: 2vh;
+  }
+  
+  .application-form form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .application-form{
+    border: 0.3vh solid rgba(255, 255, 255, 0.2)  ;
+    border-radius: 3vh;
+    margin-bottom: 4vh;
+    background: linear-gradient(to right, #0F0F0F 50%, #737373 300%); /* Adjusting color stops */
+  
+  }
+  
+  .form-group {
+    margin-bottom: 1.5vh;
+  }
+  
+  .form-group label {
+    margin-bottom: 1.5vh;
+    display: block;
+    font-family: "Montserrat SemiBold";
+    margin-top: 1.5vh;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 1vh;
+    border: 0.1vh solid #555;
+    border-radius: 1vh;
+    background-color: rgba(255, 255, 255, 0);
+    color: #e0e0e0;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 20vh;
+  }
+  
+  button {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 1.5vh;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    font-size: 4vh;
+    cursor: pointer;
+    border: 0.3vh solid rgba(255, 255, 255, 0.2)  ;
+    width: max-content;
+    align-self: center;
+    margin-top: 2vh;
+    font-family: "Montserrat Semibold";
+  }
+  
+  button:hover {
+    background-color: #4ABC32;
+  }
+  
+  .Job_Title{
+    font-family: "Montserrat Semibold";
+    font-size: 5vh;
+    margin-bottom: 0.5vh;
+  }
+  
+  .job_desription_title{
+    font-family: "Montserrat Medium";
+    font-size: 3.5vh;
+    opacity: 0.9;
+    margin-top: 2vh;
+  }
+  
+  .job_desription_para{
+    font-family: "Montserrat Regular";
+    font-size: 2.5vh;
+    opacity: 0.7;
+    margin-top: 2vh;
+  
+  }
+  
+  .application_title{
+    font-family: "Montserrat SemiBold";
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
+  }
+  
+  .red{
+    color: red;
+  }

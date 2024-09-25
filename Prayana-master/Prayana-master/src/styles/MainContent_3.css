@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Italianno";
+    src: url("../assets/fonts/ITALIANNO-REGULAR.TTF") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CLASHDISPLAY-BOLD";
+    src: url("../assets/fonts/CLASHDISPLAY-BOLD.OTF") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CLASHDISPLAY-MEDIUM";
+    src: url("../assets/fonts/CLASHDISPLAY-MEDIUM.OTF") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.MainContent_3_main_container {
+    background-color: #FFEFD6;
+    color: #000;
+    padding: 20px;
+}
+
+.MainContent_3_main_column {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.column1 {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    transform: translateY(87vh) rotate(-90deg); /* Center vertically */
+    padding: 20px;
+    background-color: #F3DCBA;
+    width: auto;
+    position: absolute;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+
+}
+
+.MainContent_3_main_column_subscription {
+    font-family: "Montserrat ExtraBold";
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.column2 {
+    padding: 20px;
+    background-color: #F3DCBA;
+    width: 70%;
+    margin-left: 130px;
+    height: max-content;
+    border-bottom-right-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+
+.MainContent_3_main_column_title1 {
+    font-family: "CLASHDISPLAY-BOLD";
+    font-size: 50px;
+}
+
+.MainContent_3_main_column_title2 {
+    font-family: "CLASHDISPLAY-MEDIUM";
+    font-size: 40px;
+}
+
+.column3 {
+    width: 25%;
+    background-color: #4ABC32;
+    height: 600px; /* Set the specific height here */
+    border-radius: 15px;
+}
+
+.scooter{
+    height: 80%;
+    position: absolute;
+    margin-left: -8%;
+    margin-top: 5%;
+
+}
+
+
